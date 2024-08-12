@@ -1,0 +1,24 @@
+.Todo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: var(--block-color-1);
+  color: black;
+  width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.TodoListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  color: var(--font-color-2);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+}
